@@ -19,6 +19,10 @@
 .DS_Store
 *.pem
 /assets
+.env
+cache.json
+config.json
+sugar.log
 
 # debug
 npm-debug.log*

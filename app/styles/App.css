@@ -18,13 +18,13 @@
 }
 
 .hello-container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 10px 0 10px;
-  color: white;
-  position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+    color: white;
+    position: relative;
   /* background-color: #35aee2; */
 }
 
@@ -48,11 +48,11 @@
 }
 
 .welcome-text {
-  margin: 0;
-  font-size: 50px;
-  font-weight: bold;
-  padding-bottom: 5px;
-  font-family: "Brush Script MT";
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-family: "Brush Script MT";
 }
 
 .sub-text {
@@ -70,6 +70,17 @@
 .cta-button {
     height: 45px;
     border: 0;
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cta-button-2 {
+    height: 45px;
     width: auto;
     padding-left: 40px;
     padding-right: 40px;
@@ -99,10 +110,12 @@
 }
 
 .mint-button {
-    background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+    background: -webkit-linear-gradient(left, #35aee2, #60c657);
     background-size: 200% 200%;
     animation: gradient-animation 4s ease infinite;
     margin-left: 10px;
+    border: 1;
+    border-color: #15f7fe;
 }
 
 .footer-container {
@@ -117,25 +130,25 @@
 }
 
 .footer-two {
-  display: flex;
-  justify-content: center;
-  align-items: bottom;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
   /* padding-bottom: 45px; */
 }
 
 .twitter-logo {
-  width: 30px;
-  height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 .github-logo {
-  width: 30px;
-  height: 30px;
-  padding-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 10px;
 }
 
 .footer-text {
